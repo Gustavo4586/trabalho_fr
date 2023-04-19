@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("img/roxo-espaco-fundo-da-nuvem-galaxia.jpg");
+    background-size: cover; /* ajusta o tamanho da imagem para cobrir todo o fundo */
+}
+
+form {
+    position: relative;
+    left: 15%;
+}
+
+button {
+    position: relative;
+    right: 15.5%;
+    cursor: pointer;
+    padding: 10px 147px;
+    border: 0;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(73, 73, 73);
+    color: rgb(252, 252, 252);
+    transition: 0.5s;
+}
+  
+.containerLogin {
+    background-color: rgb(31, 31, 31);
+    width: 30%;
+    height: 30vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    opacity: 0.9;
+}
+  
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 16%;
+}
+
+.input {
+    align-self: center;
+    margin-top: 20%;
+}
+
+.input input {
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    border: 0;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}  
